@@ -15,15 +15,26 @@ steps:
   inputs:
     targetType: 'inline'
     script: 'dotnet restore'
+
 - task: Bash@3
-  displayName: 'Build project'
+  displayName: 'Download CSS assets'
   inputs:
     targetType: 'inline'
-    script: 'dotnet build'
+    script: 'wget https://robertmonden.com/files/build/rm_portfolio_assets.zip -P RobertMonden.Website/wwwroot/css'
+
 - task: Bash@3
+  displayName: 'Extract CSS assets'
+  inputs:
+    targetType: 'inline'
+    script: 'unzip RobertMonden.Website/wwwroot/css/rm_portfolio_assets.zip -d RobertMonden.Website/wwwroot/css'
+
+- task: Bash@3
+  displayName: 'Create production build'
   inputs:
     filePath: './publish.sh'
+
 - task: PublishBuildArtifacts@1
+  displayName: 'Publish build artifacts'
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)/Dist'
     ArtifactName: 'drop'
