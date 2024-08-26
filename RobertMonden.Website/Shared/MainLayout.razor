@@ -1,0 +1,23 @@
+﻿@inherits LayoutComponentBase
+
+<div id="app-wrapper">
+    <Header />
+    <div id="menu">
+        <ul>
+            <li><a href="/">Home</a></li>
+        </ul>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="left-panel" class="col-2">
+                <NavMenu />
+            </div>
+
+            <div id="content-wrapper" class="col-10">
+                @Body
+            </div>
+        </div>
+    </div>
+    <div id="copyright" class="small my-2">&copy; 2018-2024 Robert Monden
+    </div>
+</div>

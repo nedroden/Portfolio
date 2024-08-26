@@ -1,0 +1,83 @@
+@page "/education"
+
+@inject HttpClient HttpClient
+
+<PageTitle>Robertmonden.com - Education</PageTitle>
+<PageHeader Title="Education" />
+<Line />
+<p>This page lists my educational history. Academic years and semesters go downwards, studies go upwards.</p>
+
+@foreach (Degree degree in _degrees)
+{
+    <div class="degree">
+    <h3 class="degree-header">
+        @degree.Label - <span>@degree.Institute</span>
+    </h3>
+    <div class="degree-body">
+        @if (!degree.Years.Any())
+            {
+                <p>No detailed information available about this degree (yet).</p>
+            }
+            else
+            {
+                @foreach (Year year in degree.Years)
+                {
+                    <div class="degree-year">
+                        <h4 class="degree-year-header">
+                            Academic year of @year.StartingYear - @(year.StartingYear + 1)
+                        </h4>
+                        @foreach (Semester semester in year.Semesters)
+                        {
+                            @if (!string.IsNullOrWhiteSpace(semester.Description))
+                            {
+                                <p>@semester.Description</p>
+                            }
+
+                            @if (semester.Terms.Any())
+                            {
+                                @foreach (Term term in semester.Terms)
+                                {
+                                    <h5 class="degree-term-header">@term.Label</h5>
+                                    @if (!string.IsNullOrWhiteSpace(term.Description))
+                                    {
+                                        <p>@term.Description</p>
+                                    }
+
+                                    <ul>
+                @foreach (Course course in term.Courses)
+                                        {
+                                            @if (!string.IsNullOrWhiteSpace(course.Url))
+                                            {
+                                                <li><a href="@course.Url" target="_blank">@course.Title</a> - @course.Description</li>
+                                            }
+                                            else
+                                            {
+                                                <li><span class="course-title-nourl">@course.Title</span> - @course.Description</li>
+                                            }
+                                        }
+                                    </ul>
+                                }
+                            }
+                            else if (semester.Courses.Any())
+                            {
+                                <ul>
+                                    @foreach (Course course in semester.Courses)
+                                    {
+                                        @if (!string.IsNullOrWhiteSpace(course.Url))
+                                        {
+                                            <li><a href="@course.Url" target="_blank">@course.Title</a> - @course.Description</li>
+                                        }
+                                        else
+                                        {
+                                            <li><span class="course-title-nourl">@course.Title</span> - @course.Description</li>
+                                        }
+                                    }
+                                </ul>
+                            }
+                        }
+                    </div>
+                }
+            }
+        </div>
+    </div>
+}

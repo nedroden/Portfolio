@@ -1,0 +1,84 @@
+@page "/"
+
+<PageTitle>Robertmonden.com - Index</PageTitle>
+
+<div id="homepage">
+    <h2 id="hello">
+        I am <span id="hello-name">Robert.</span>
+    </h2>
+    <span id="position">Software Engineer</span>
+    <Line />
+
+    <p className="head">
+        Hello! I am Robert Monden, a 28 year old software engineer with a passion for learning, programming, physics and movies. I am currently employed as a software engineer (primarily C# and COBOL) at the RDW in Groningen, the Netherlands.
+    </p>
+
+    <h3 class="mt-5">Portfolio Website 2024</h3>
+    <p>You are currently looking at the renewed version of my portfolio website. Work on this renewed version is
+        currently still in progress, so you will probably see things changing over time.</p>
+
+    <h3 class="mt-5">Recent Projects</h3>
+    <p>Here are some of the most recent projects I have worked on.</p>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="projects/Compiler.png" class="img-fluid rounded-start" alt="Compiler">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Compiler</h5>
+                            <p class="card-text">On-going project to create a compiler for a custom-designed programming language.</p>
+                            <p class="card-text"><strong>Technologies:</strong> Golang, .NET 8, AArch64 assembly</p>
+                            <br class="clear" />
+                        </div>
+                    </div>
+                    <div class="card-footer"><small class="text-muted"><a href="https://github.com/nedroden/OSACLAN" target="_blank">Go to repository</a></small></div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="projects/MeetingScheduler.png" class="img-fluid rounded-start"
+                            alt="Meeting scheduler">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Meeting Scheduler (group project)</h5>
+                            <p class="card-text">Meeting scheduling application that integrates with Google Calendar,
+                                Todoist and Slack. Uses Google for authentication.</p>
+                            <p class="card-text"><strong>Technologies:</strong> .NET 6 (ASP.NET, Blazor), RabbitMQ,
+                                Google Authentication, Google Calendar, Todoist, Slack</p>
+                            <br class="clear" />
+                        </div>
+                    </div>
+                    <div class="card-footer"><small class="text-muted">Repository not available.</small></div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="projects/FetalEcg.png" class="img-fluid rounded-start" alt="Meeting scheduler">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Fetal Electrocardiography (group project)</h5>
+                            <p class="card-text">Machine learning project that involved extracting a fetus' heartbeat
+                                from five electrode signals.</p>
+                            <p class="card-text"><strong>Technologies:</strong> Python, SciPy, Machine Learning, Signal
+                                Processing</p>
+                            <br class="clear" />
+                        </div>
+                    </div>
+                    <div class="card-footer"><small class="text-muted">Repository not available.</small></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

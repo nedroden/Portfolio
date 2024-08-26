@@ -1,0 +1,13 @@
+@inject HttpClient HttpClient
+
+<div id="application-list">
+    <h1 class="display-1">Applications</h1>
+    <p>The following applications are available:</p>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @foreach (Application application in Applications)
+        {
+            <ApplicationListItem Application="@application" />
+        }
+    </div>
+</div>

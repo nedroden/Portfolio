@@ -1,0 +1,447 @@
+[
+    {
+        "label": "MSc. Computing Science",
+        "institute": "University of Groningen",
+        "years": [
+            {
+                "startingYear": 2020,
+                "semesters": [
+                    {
+                        "description": "",
+                        "terms": [
+                            {
+                                "label": "Semester 1a",
+                                "courses": [
+                                    {
+                                        "title": "Computational Physics",
+                                        "description": "Solving essential physics problems using Python. The final assignment involved a molecular dynamics simulation.",
+                                        "url": "https://www.rug.nl/ocasys/fwn/vak/show?code=WMPH007-05"
+                                    },
+                                    {
+                                        "title": "Software Architecture",
+                                        "description": "Course about architectural concepts within software development.",
+                                        "url": "https://www.rug.nl/ocasys/rug/vak/show?code=WMCS004-05"
+                                    },
+                                    {
+                                        "title": "Web and Cloud Computing",
+                                        "description": "Concerns the development of highly scalable distributed applications, with a particular focus on web applications.",
+                                        "url": "https://www.rug.nl/ocasys/rug/vak/show?code=WMCS005-05"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Semester 1b",
+                                "courses": [
+                                    {
+                                        "title": "Information Systems",
+                                        "description": "Concerns various types of information systems, such as health care information systems, relational databases, blockchain and IOT.",
+                                        "url": "https://www.rug.nl/ocasys/rug/vak/show?code=WMCS009-05"
+                                    },
+                                    {
+                                        "title": "Software Maintenance and Evolution",
+                                        "description": "Concerns the evolution of large-scale software products and the challenges associated with maintaining such software products.",
+                                        "url": "https://www.rug.nl/ocasys/rug/vak/show?code=WMCS013-05"
+                                    },
+                                    {
+                                        "title": "Software Patterns",
+                                        "description": "Concerns patterns used in software development.",
+                                        "url": "https://www.rug.nl/ocasys/rug/vak/show?code=WMCS014-05"
+                                    }
+                                ]
+                            }
+                        ],
+                        "courses": []
+                    },
+                    {
+                        "description": "",
+                        "terms": [
+                            {
+                                "label": "Semester 2a",
+                                "courses": [
+                                    {
+                                        "title": "Formal Modeling of Communicating Systems",
+                                        "description": "Course about how communicating systems can be formally described and how they can be compared to specifications.",
+                                        "url": "https://www.rug.nl/ocasys/rug/vak/show?code=WMCS016-05"
+                                    },
+                                    {
+                                        "title": "Scalable Computing",
+                                        "description": "Concerns the development of programs which have to deal with large amounts of data through, inter alia, GPU computing.",
+                                        "url": "https://www.rug.nl/ocasys/rug/vak/show?code=WMCS017-05"
+                                    },
+                                    {
+                                        "title": "Student Colloquium",
+                                        "description": "Simulation of a scientific conference, where students have to write a paper, review papers from peers and give a short presentation about the topic they have chosen. My lab partner and I wrote a paper on the use of facial expression recognition systems on athletes.",
+                                        "url": "https://www.rug.nl/ocasys/rug/vak/show?code=WMCS019-05"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Semester 2b",
+                                "description": "In the second half of the second semester I did another internship at the RDW. During this internship I worked closely with other team members on rebuilding two legacy applications from the ground up in .NET Core.",
+                                "courses": []
+                            }
+                        ],
+                        "courses": []
+                    }
+                ]
+            },
+            {
+                "startingYear": 2021,
+                "semesters": [
+                    {
+                        "description": "Although the official MSc. Computing Science curriculum requires only 30 ECs worth of courses (which is equivalent to 6 courses), out of personal interest I took a variety of additional courses. These extracurricular activities are marked with an asterisk.",
+                        "terms": [
+                            {
+                                "label": "Semester 1a",
+                                "courses": [
+                                    {
+                                        "title": "Quantum Physics 1*",
+                                        "description": "Covers topics in Quantum Mechanics such as wave mechanics, the superposition principle, harmonic oscillators and angular momentum and spin in Quantum Mechanics.",
+                                        "url": "https://www.rug.nl/ocasys/fwn/vak/show?code=WBPH014-05"
+                                    },
+                                    {
+                                        "title": "Cosmology*",
+                                        "description": "Treats the global structure and evolution of the universe, focussing mainly on topics such as relativistic cosmology, the expanding universe and determination of cosmological quantities such as the cosmic density parameter.",
+                                        "url": "https://www.rug.nl/ocasys/fwn/vak/show?code=WBAS001-05"
+                                    },
+                                    {
+                                        "title": "Nuclear Energy*",
+                                        "description": "An introduction to nuclear physics and reactions. The course also covers neutron physics, historical accidents and fusion reactors.",
+                                        "url": "https://www.rug.nl/ocasys/fwn/vak/show?code=WBPH010-05"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Semester 1b",
+                                "courses": [
+                                    {
+                                        "title": "Enterprise Application Integration",
+                                        "description": "Deals with the coupling of software components that cannot directly communicate with each other.",
+                                        "url": "https://www.rug.nl/ocasys/rug/vak/show?code=WMCS007-05"
+                                    },
+                                    {
+                                        "title": "Machine Learning",
+                                        "description": "Concerns concepts in machine learning such as supervised and unsupervised learning, and universal challenges such as the bias-variance tradeoff.",
+                                        "url": "https://www.rug.nl/ocasys/rug/vak/show?code=WMAI010-05"
+                                    },
+                                    {
+                                        "title": "Subatomic Physics*",
+                                        "description": "Concerns topics such as symmetry and conservation laws, scattering, interaction of particles with matter and basic computational methods in Python.",
+                                        "url": "https://www.rug.nl/ocasys/rug/vak/show?code=WBPH031-05"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "terms": [
+                            {
+                                "label": "Semester 2a",
+                                "courses": [
+                                    {
+                                        "title": "Deep Learning",
+                                        "description": "Introduces the field of Deep Learning.",
+                                        "url": "https://www.rug.nl/ocasys/rug/vak/show?code=WMAI017-05"
+                                    },
+                                    {
+                                        "title": "Particle Physics Phenomenology",
+                                        "description": "Focuses on the phenomenology related to subatomic particle physics and discusses the use of, for example, accelerators for the purpose of discovering new particles.",
+                                        "url": "https://www.rug.nl/ocasys/rug/vak/show?code=WMPH026-05"
+                                    },
+                                    {
+                                        "title": "Fundamentals of Distributed Systems",
+                                        "description": "Serves as a foundation for understanding distributed systems.",
+                                        "url": "https://www.rug.nl/ocasys/rug/vak/show?code=WMCS022-05"
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Semester 2b",
+                                "courses": [
+                                    {
+                                        "title": "Quantum Physics 2*",
+                                        "description": "Second half of the Quantum Physics course. Covers topics such as perturbation theory (both time-dependent and time independent), the Zeeman effect, fine/hyperfine structure of the hydrogen atom, etc.",
+                                        "url": "https://www.rug.nl/ocasys/fwn/vak/show?code=WBPH052-05"
+                                    },
+                                    {
+                                        "title": "Astronomical Data Science",
+                                        "description": "An introduction to data science, focusing on its applications in astronomy.",
+                                        "url": "https://www.rug.nl/ocasys/rug/vak/show?code=WMAS007-05"
+                                    },
+                                    {
+                                        "title": "Advanced Parallel Programming",
+                                        "description": "Covers various topics related to parallel programming.",
+                                        "url": "https://www.rug.nl/ocasys/rug/vak/show?code=WMCS020-05"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "startingYear": 2022,
+                "semesters": [
+                    {
+                        "terms": [
+                            {
+                                "label": "Semester 1a",
+                                "courses": [
+                                    {
+                                        "title": "Social Network Analysis",
+                                        "description": "Covers topics in Quantum Mechanics such as wave mechanics, the superposition principle, harmonic oscillators and angular momentum and spin in Quantum Mechanics.",
+                                        "url": "https://www.rug.nl/ocasys/fwn/vak/show?code=WBPH014-05"
+                                    }
+                                ],
+                                "description": "In addition to one course, during this semester I worked on my master's thesis. An interdisciplinary project of computer science and astronomy, the goal was to develop an algorithm that allows for the detection of galaxy mergers."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "HBO-ICT Software Engineering",
+        "institute": "Hanze University of Applied Sciences",
+        "years": [
+            {
+                "startingYear": 2016,
+                "semesters": [
+                    {
+                        "terms": [
+                            {
+                                "label": "Semester 1a",
+                                "description": "Designing and building web applications, using PHP and Oracle SQL. In this block we were also introduced to UML. Since I had previous experience with web development, I joined the advanced group ('plusroute' in Dutch), which meant my curriculum for this block was slightly different. Any deviations from the regular program are marked by an asterisk.",
+                                "courses": [
+                                    {
+                                        "title": "Databases 1",
+                                        "description": "Learning how to create Entity Relational Diagrams in Oracle Data Modeler. We were also introduced to UML and Oracle SQL."
+                                    },
+                                    {
+                                        "title": "Web-Programming*",
+                                        "description": "Introduction to Object-Oriented Programming and frameworks in PHP."
+                                    },
+                                    {
+                                        "title": "Intercultural Competencies",
+                                        "description": "Elementary grammar. A few other students and I wrote an information document about the (academic) culture of Pune, India."
+                                    },
+                                    {
+                                        "title": "Communication Skills",
+                                        "description": "Developing presentational skills (in Dutch)."
+                                    },
+                                    {
+                                        "title": "Project Management 1",
+                                        "description": "Introduction to Scrum."
+                                    },
+                                    {
+                                        "title": "Project*",
+                                        "description": "Developing a Colloquium app in Laravel with other 18 students."
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Semester 1b",
+                                "description": "Designing and building desktop applications in Java.",
+                                "courses": [
+                                    {
+                                        "title": "Configuration Management",
+                                        "description": "Version control (using Git)."
+                                    },
+                                    {
+                                        "title": "Human-Computer Interaction",
+                                        "description": "An introduction to designing easy-to-use systems with intuitive controls."
+                                    },
+                                    {
+                                        "title": "Object-Oriented Programming",
+                                        "description": "Basic object-oriented programming in Java."
+                                    },
+                                    {
+                                        "title": "Math",
+                                        "description": "Basic algebra, graphs and logarithms."
+                                    },
+                                    {
+                                        "title": "Project Management 2",
+                                        "description": "How to take on a large project and ensure the desired goals are quickly and efficiently."
+                                    },
+                                    {
+                                        "title": "Project",
+                                        "description": "Taking a prototype parking garage simulator and turning it into a fully-functional simulator program."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "terms": [
+                            {
+                                "label": "Semester 2a",
+                                "description": "An introduction to operating systems and networking protocols.",
+                                "courses": [
+                                    {
+                                        "title": "Networking",
+                                        "description": "Basic networking protocols such as TCP and IP."
+                                    },
+                                    {
+                                        "title": "Operating Systems",
+                                        "description": "How does some of the most important functionality in modern operating systems work?"
+                                    },
+                                    {
+                                        "title": "Security Awareness",
+                                        "description": "How to manage security in organizations and avoid/minimize the impact of security risks."
+                                    },
+                                    {
+                                        "title": "IT Service Management",
+                                        "description": "An introduction to management in IT environments."
+                                    },
+                                    {
+                                        "title": "Intercultural Competencies",
+                                        "description": "Developing email writing and interview skills."
+                                    },
+                                    {
+                                        "title": "Introduction to Practical Research",
+                                        "description": "A brief introduction to the most important concepts of research."
+                                    },
+                                    {
+                                        "title": "Communication",
+                                        "description": "Basic communication skills and techniques for effective meetings."
+                                    },
+                                    {
+                                        "title": "Project",
+                                        "description": "Setup of a server architecture consisting of four Windows Server-powered virtual machines."
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Semester 2b",
+                                "description": "Visualization of data and drawing conclusions based on data analyses.",
+                                "courses": [
+                                    {
+                                        "title": "Databases 2",
+                                        "description": "Covered more advanced SQL, such as functions and procedures"
+                                    },
+                                    {
+                                        "title": "Statistics",
+                                        "description": "An introduction to statistical methods."
+                                    },
+                                    {
+                                        "title": "Written Communication Skills",
+                                        "description": "Covered techniques for writing more effective reports."
+                                    },
+                                    {
+                                        "title": "Data Visualization",
+                                        "description": "Discussed the different types of visualizations and when they should (or should not) be used."
+                                    },
+                                    {
+                                        "title": "Project",
+                                        "description": "Finding patterns in registration data by using raw data to generate visualizations."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "startingYear": 2017,
+                "semesters": []
+            },
+            {
+                "startingYear": 2018,
+                "semesters": [
+                    {
+                        "description": "The first semester of my third year consisted of a Computing Science pre-master program, which is a program created for HBO students who want to pursue a master's degree at WO-level.",
+                        "terms": [
+                            {
+                                "label": "Semester 1a",
+                                "courses": [
+                                    {
+                                        "title": "Information Security",
+                                        "url": "https://www.rug.nl/ocasys/rug/vak/show?code=INBSEC-08",
+                                        "description": "How to ensure CIA in organizations using methods like encryption and hashing."
+                                    },
+                                    {
+                                        "title": "Introduction to Intelligent Systems",
+                                        "url": "https://www.rug.nl/ocasys/rug/vak/show?code=INBINTS-08",
+                                        "description": "An introduction to pattern recognition, (un)supervised machine learning and image processing."
+                                    },
+                                    {
+                                        "title": "Advanced Object-Oriented Programming",
+                                        "url": "https://www.rug.nl/ocasys/rug/vak/show?code=INBGOP-09",
+                                        "description": "Threading, networking and design patterns in Java. The final project involved adding multiplayer functionality to an Asteroids clone."
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Semester 1b",
+                                "courses": [
+                                    {
+                                        "title": "Calculus (for Computing Science)",
+                                        "url": "https://www.rug.nl/ocasys/let/vak/show?code=WPMA14001",
+                                        "description": "Introduction to differential and integral calculus, and other topics such as differential equations, Taylor series and complex numbers."
+                                    },
+                                    {
+                                        "title": "Discrete Structures",
+                                        "url": "https://www.rug.nl/ocasys/rug/vak/show?code=INBINTS-08",
+                                        "description": "An introduction to pattern recognition, (un)supervised machine learning and image processing."
+                                    },
+                                    {
+                                        "title": "Computer Architecture",
+                                        "url": "https://www.rug.nl/ocasys/rug/vak/show?code=WBCS14002",
+                                        "description": "Computer Architecture covers six abstract layers in modern computers and discusses the relation between those layers. The course included a lecture about operating systems and computer networking."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "description": "During the second semester of my third year I developed a cross-platform mobile application at Advanced Climate Systems in Leens, the Netherlands."
+                    }
+                ]
+            },
+            {
+                "startingYear": 2019,
+                "semesters": [
+                    {
+                        "description": "The first semester of my fourth year consisted of courses related to Artificial Intelligence, Machine Learning and various other aspects of software development.",
+                        "courses": [
+                            {
+                                "title": "Project: Virtual Fitness Coach",
+                                "description": "Virtual fitness coach with a mobile app and back-end based on a microservice architecture."
+                            },
+                            {
+                                "title": "Software Development Lifecycle",
+                                "description": "Course about aspects of software engineering like Software Architecture, Test-Driven Development and security."
+                            },
+                            {
+                                "title": "Artificial Intelligence and Machine Learning",
+                                "description": "An introduction to problem solving using artificial intelligence. The machine learning part of the course covers neural networks, both with and without libraries like Tensorflow and Keras."
+                            },
+                            {
+                                "title": "Practical Research",
+                                "description": "Structured literature review regarding the role of artificial intelligence in breast cancer diagnoses. Included a group assignment that involved researching the benefit of microservices in the VFC project."
+                            },
+                            {
+                                "title": "Enterprise Application Integration",
+                                "description": "Deals with the coupling of software components that cannot directly communicate with each other."
+                            }
+                        ]
+                    },
+                    {
+                        "description": "In the second semester I worked on my graduation project at the RDW in Groningen. The project involved finding a way to perform automatic accessibility checks on web applications. On June 25th, 2020, the project was graded with an 8.5."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Tourism",
+        "institute": "Noorderpoortcollege",
+        "years": []
+    },
+    {
+        "label": "VMBO TL+",
+        "institute": "Hogelandcollege Uithuizen",
+        "years": []
+    }
+]

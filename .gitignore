@@ -1,0 +1,10 @@
+bin
+obj
+.vs
+.vscode
+.idea
+
+font-awesome
+open-iconic
+
+environment.sh

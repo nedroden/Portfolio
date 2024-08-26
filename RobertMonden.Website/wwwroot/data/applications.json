@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Azure Devops",
+        "url": "-",
+        "description": "Development platform that facilitates collaborative software development through integrated version control, Agile boards and build/release management.",
+        "iconFilename": "azure_devops.png"
+    },
+    {
+        "name": "Overleaf",
+        "url": "-",
+        "description": "Browser-based working environment for LaTeX projects.",
+        "iconFilename": "overleaf.png"
+    },
+    {
+        "name": "OneDrive",
+        "url": "-",
+        "description": "Cloud platform developed by Microsoft.",
+        "iconFilename": "onedrive.png"
+    },
+    {
+        "name": "Notion",
+        "url": "-",
+        "description": "Project management and note taking application.",
+        "iconFilename": "notion.png"
+    }
+]

@@ -1,0 +1,13 @@
+﻿<div id="main-navigation">
+    <div class="nav-header">Main navigation</div>
+    <ul class="nav flex-column">
+        @foreach (MenuItem menuItem in _menuItems)
+        {
+            <li class="nav-item">
+                <NavLink class="nav-link" href="@menuItem.Href" Match="NavLinkMatch.All">
+                    <span class="oi oi-@menuItem.Icon" aria-hidden="true"></span> @menuItem.Label
+                </NavLink>
+            </li>
+        }
+    </ul>
+</div>
