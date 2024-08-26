@@ -20,3 +20,11 @@ steps:
   inputs:
     targetType: 'inline'
     script: 'dotnet build'
+- task: Bash@3
+  inputs:
+    filePath: './publish.sh'
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)/Dist'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
