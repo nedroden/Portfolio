@@ -6,5 +6,10 @@ obj
 
 font-awesome
 open-iconic
+bootstrap
 
 environment.sh
+
+Dist
+
+.DS_Store
