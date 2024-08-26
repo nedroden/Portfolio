@@ -21,7 +21,7 @@ steps:
   inputs:
     targetType: 'inline'
     # Automatic redirect to https
-    script: 'wget http://robertmonden.com/files/build/rm_portfolio_assets.zip -P RobertMonden.Website/wwwroot/css'
+    script: 'curl -L0 http://robertmonden.com/files/build/rm_portfolio_assets.zip -P RobertMonden.Website/wwwroot/css'
 
 - task: Bash@3
   displayName: 'Extract CSS assets'
