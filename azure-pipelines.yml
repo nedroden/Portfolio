@@ -20,7 +20,8 @@ steps:
   displayName: 'Download CSS assets'
   inputs:
     targetType: 'inline'
-    script: 'wget https://robertmonden.com/files/build/rm_portfolio_assets.zip --secure-protocol=TLSv1 -P RobertMonden.Website/wwwroot/css'
+    # Automatic redirect to https
+    script: 'wget http://robertmonden.com/files/build/rm_portfolio_assets.zip -P RobertMonden.Website/wwwroot/css'
 
 - task: Bash@3
   displayName: 'Extract CSS assets'
